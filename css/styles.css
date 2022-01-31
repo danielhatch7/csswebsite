@@ -1,0 +1,100 @@
+/*
+  #1a2a6c dark blue
+  #b21f1f cherry red
+  #333333 dark gray
+*/
+
+body {
+  font-family: "Merriweather", serif;
+  color: #333;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+  color: #1a2a6c; /* dark blue */
+  font-size: 2rem;
+}
+
+h2 {
+  color: #b21f1f; /* cherry red */
+}
+
+article {
+  width: 54rem;
+  padding: 1em 3em;
+  margin-bottom: 4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #755;
+}
+
+nav li:first-child {
+  flex: 2 0 auto; /* even though just setting flex-grow, W3C recommends using flex */
+}
+
+nav li:first-child a {
+  width: 2em;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  background-color: #755;
+  padding: 1em 1.5em;
+}
+
+nav a:hover {
+  background-color: #977;
+}
+
+nav a,
+nav a:visited {
+  color: #ddd;
+}
+
+nav i {
+  font-size: 1.5em;
+}
+
+img.my-svg {
+  width: 60px;
+  margin-left: 0.5em;
+}
+
+.back-top {
+  color: #fff;
+  background-color: crimson;
+  display: block;
+  width: 8em;
+  padding: 0.25em;
+  text-decoration: none;
+}
+
+.back-top:hover {
+  background-color: chocolate;
+}
