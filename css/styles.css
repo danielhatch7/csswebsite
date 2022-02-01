@@ -53,37 +53,11 @@ nav ul {
   background-color: #755;
 }
 
-nav li:first-child {
-  flex: 2 0 auto; /* even though just setting flex-grow, W3C recommends using flex */
-}
-
-nav li:first-child a {
-  width: 2em;
-}
-
 nav a {
   display: block;
   text-decoration: none;
   background-color: #755;
   padding: 1em 1.5em;
-}
-
-nav a:hover {
-  background-color: #977;
-}
-
-nav a,
-nav a:visited {
-  color: #ddd;
-}
-
-nav i {
-  font-size: 1.5em;
-}
-
-img.my-svg {
-  width: 60px;
-  margin-left: 0.5em;
 }
 
 .back-top {
@@ -95,6 +69,7 @@ img.my-svg {
   text-decoration: none;
 }
 
-.back-top:hover {
-  background-color: chocolate;
+ul {
+  list-style-position: inside;
+  font-family: Arial, Helvetica, sans-serif;
 }
